@@ -1,5 +1,5 @@
 # Breast_Canser_training_ScikitLearn
-Diffetenr algorithms of ML and hyperparameters customization (using Scikit-Learn)
+Different algorithms of ML and hyperparameters customization (using Scikit-Learn)
 
 # Description 
 The aim of this notebook is to understand the process of choosing and applying the machine learning tools, comparing, selecting and improving the best models.
@@ -11,10 +11,10 @@ by Andreas C. Müller and Sarah Guido.
 
 Algorithms:
 
-KNN
-Logistic Regression
-Decision Tree
-Random Forests
-Neural Network
-and SVM
+* KNN
+* Logistic Regression
+* Decision Tree
+* Random Forests
+* Neural Network
+* SVM
 
