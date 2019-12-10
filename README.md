@@ -1,4 +1,4 @@
-# Breast_Canser_training_ScikitLearn
+# Breast_Canсer_training_ScikitLearn
 Different algorithms of ML and hyperparameters customization (using Scikit-Learn)
 
 # Description 
