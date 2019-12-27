@@ -18,5 +18,5 @@ Algorithms:
 * Neural Network
 * SVM
 
-For every algorithm was created personal file. There is exploring hyperparameters, cross validation and some characteristic of the model in this files.
+For every algorithm was created personal file. There are exploring hyperparameters, cross validation and some characteristic of the model in this files.
 
