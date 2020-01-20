@@ -586,3 +586,34 @@ scores = cross_val_score(log_reg, X_trainval,y_trainval, cv=loo)
 print("Количество итераций: ", len(scores))
 print("Средняя правильность: {:.2f}".format(scores.mean()))
 
+
+# # GaussianNB
+
+# In[269]:
+
+
+X_train, X_test, y_train, y_test = train_test_split(cancer.data, cancer.target, 
+                                                    stratify = cancer.target, random_state = 0)
+
+
+# In[270]:
+
+
+# стандартиируем данные
+scaler = StandardScaler()
+scaler.fit(X_train)
+X_train_scaled = scaler.transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+
+
+# In[273]:
+
+
+from sklearn.naive_bayes import GaussianNB
+
+clf = GaussianNB()
+clf.fit(X_train_scaled, y_train)
+
+print("Правильность на обучающем наборе: {:.2f}".format(clf.score(X_train_scaled, y_train)))
+print("Правильность на тестовом наборе: {:.2f}".format(clf.score(X_test_scaled, y_test)))
+
